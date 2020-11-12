@@ -8,4 +8,4 @@ And It renders Bangla font beautifully.
 or download from this repo https://github.com/tazihad/win10-fonts
 
 2. put "50-custom-bangla.conf" file into ".config/fontconfig/conf.d/" directory. [create if directory doesn't exist]  
-`$ mkdir -p /home/pulsar/Documents/bdfonts && cp 50-custom-bangla.conf $_`
+`$ mkdir -p ~/.config/fontconfig/conf.d && cp 50-custom-bangla.conf $_`
