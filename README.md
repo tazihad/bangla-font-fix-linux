@@ -10,4 +10,8 @@ or download from this repo https://github.com/tazihad/win10-fonts
 2. put "50-custom-bangla.conf" file into ".config/fontconfig/conf.d/" directory. [create if directory doesn't exist]  
 `$ mkdir -p ~/.config/fontconfig/conf.d && cp 50-custom-bangla.conf $_`
 
+Test:
+`$ fc-cache`
+`$ LANG=bd_BD fc-match`
+
 TESTED: Pop!_OS, Manjaro
