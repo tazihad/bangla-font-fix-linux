@@ -18,7 +18,7 @@ Test:
 
 TESTED: Pop!_OS, Manjaro  
 
-Extra steps for Forefox users:  
+**Extra steps for Forefox users:**  
 Go to: Preference -> Language & Appearence -> Fonts & Colors  
 From Advanced -> Fonts for -> Select Bengali  
 Set->  
