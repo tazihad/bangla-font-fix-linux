@@ -16,26 +16,26 @@ Test:
 `$ fc-cache`  
 `$ LANG=bd_BD fc-match`  
 
-TESTED: Pop!_OS, Manjaro
+TESTED: Pop!_OS, Manjaro  
 
-Extra steps for Forefox users:
+Extra steps for Forefox users:  
 Go to: Preference -> Language & Appearence -> Fonts & Colors  
-From Advanced -> Fonts for -> Select Bengali
-Set-> 
+From Advanced -> Fonts for -> Select Bengali  
+Set->  
 Proportional: Serif, Size -> 16  
-Serif: Nirmala UI, Sans-serif: Nirmala UI
+Serif: Nirmala UI, Sans-serif: Nirmala UI  
 Monospace: Consolas, Size: 12  
 Minimum font size: None  
 
-Click Ok.
+Click Ok.  
+  
 
-
-Again Select Latin
+Again Select Latin  
 Set-> 
 Proportional: Serif, Size -> 16  
 Serif: Times New Roman, Sans-serif: Nirmala Arial  
 Monospace: Consolas, Size: 12  
 Minimum font size: None  
 Click Ok.
-
+  
 Now Select the default font: Times New Roman  
