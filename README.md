@@ -1,5 +1,5 @@
 # bangla-fonts-fix-linux
-Fix small Bangla fonts problem in linux
+**Fix small Bangla fonts problem in linux**  
 
 This will fix small or unsupported bangla font problem in linux. This will make "Nirmala UI" default bangla font in linux. Nirmala UI is a truetype font made by Microsoft. 
 And It renders Bangla font beautifully. Nirmala UI is the default bangla font in Windows 10.
