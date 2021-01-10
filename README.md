@@ -33,7 +33,7 @@ Click Ok.
 Again Select Latin  
 Set-> 
 Proportional: Serif, Size -> 16  
-Serif: Times New Roman, Sans-serif: Nirmala Arial  
+Serif: Times New Roman, Sans-serif: Arial  
 Monospace: Consolas, Size: 12  
 Minimum font size: None  
 Click Ok.
