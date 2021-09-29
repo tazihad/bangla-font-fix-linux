@@ -39,3 +39,8 @@ Minimum font size: None
 Click Ok.
   
 Now Select the default font: Times New Roman  
+
+
+### Extra
+Download and Install 30+ Bangla fonts
+https://github.com/tazihad/bangla-fonts
