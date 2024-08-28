@@ -51,7 +51,7 @@ Follow these steps to configure fonts for Bengali and Latin text in Firefox:
 
 This setup ensures that Bengali text is displayed correctly with the desired fonts and sizes in Firefox.
 
-
+More Linux related Tutorials at: https://zihad.com.bd/posts/fix-bangla-fonts-broken-problem-linux/
 
 ### Extra
 Download and Install 30+ Bangla fonts
