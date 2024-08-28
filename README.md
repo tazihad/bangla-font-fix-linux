@@ -1,44 +1,56 @@
 # bangla-fonts-fix-linux
 **Fix small Bangla fonts problem in linux**  
-
-This will fix small or unsupported bangla font problem in linux. This will make "Nirmala UI" default bangla font in linux. Nirmala UI is a truetype font made by Microsoft. 
-And It renders Bangla font beautifully. Nirmala UI is the default bangla font in Windows 10.
-
-1. copy all fonts from Windows 10 iso or system into "/usr/share/fonts/win10-fonts" folder. Take a look at here how to extract fonts from Windows: https://wiki.archlinux.org/index.php/Microsoft_fonts#Extracting_fonts_from_a_Windows_ISO  
-or download from this repo https://github.com/tazihad/win10-fonts
-
-2. put "50-custom-bangla.conf" file into ".config/fontconfig/conf.d/" directory. [create if directory doesn't exist]  
+### Install Bangla fonts
 ```
-wget https://raw.githubusercontent.com/tazihad/bangla-fonts-fix-linux/main/50-custom-bangla.conf && mkdir -p ~/.config/fontconfig/conf.d && cp 50-custom-bangla.conf $_
+curl -sSL https://raw.githubusercontent.com/tazihad/bangla-font-fix-linux/main/fonts-bangla-download.sh | sh
 ```
 
-Test:  
-`$ fc-cache`  
-`$ LANG=bd_BD fc-match`  
+### Make Nirmala UI default Bangla font similar to Windows 10
+```
+curl -sSL https://raw.githubusercontent.com/tazihad/bangla-font-fix-linux/main/bangla-nirmalaui-default.sh | sh
+```
 
-TESTED: Pop!_OS, Manjaro  
+### Download Windows 10 fonts for linux
+```
+test
+```
 
-**Extra steps for Forefox users:**  
-Go to: Preference -> Language & Appearence -> Fonts & Colors  
-From Advanced -> Fonts for -> Select Bengali  
-Set->  
-Proportional: Serif, Size -> 16  
-Serif: Nirmala UI, Sans-serif: Nirmala UI  
-Monospace: Consolas, Size: 12  
-Minimum font size: None  
+#### Extra Steps for Firefox Users
 
-Click Ok.  
-  
+Follow these steps to configure fonts for Bengali and Latin text in Firefox:
 
-Again Select Latin  
-Set-> 
-Proportional: Serif, Size -> 16  
-Serif: Times New Roman, Sans-serif: Arial  
-Monospace: Consolas, Size: 12  
-Minimum font size: None  
-Click Ok.
-  
-Now Select the default font: Times New Roman  
+1. **Open Firefox Settings:**
+   - Navigate to `Settings`.
+
+2. **Navigate to Fonts & Colors:**
+   - Go to `Language & Appearance` -> `Fonts & Colors`.
+   - Click on the `Advanced...` button.
+
+3. **Configure Bengali Fonts:**
+   - **Fonts for:** Select `Bengali`.
+   - **Proportional:** Set to `Serif`, Size to `16`.
+   - **Serif:** Set to `Nirmala UI`.
+   - **Sans-serif:** Set to `Nirmala UI`.
+   - **Monospace:** Set to `Consolas`, Size to `12`.
+   - **Minimum font size:** Leave as `None`.
+
+   - Click `OK` to save.
+
+4. **Configure Latin Fonts:**
+   - **Fonts for:** Select `Latin`.
+   - **Proportional:** Set to `Serif`, Size to `16`.
+   - **Serif:** Set to `Times New Roman`.
+   - **Sans-serif:** Set to `Arial`.
+   - **Monospace:** Set to `Consolas`, Size to `12`.
+   - **Minimum font size:** Leave as `None`.
+
+   - Click `OK` to save.
+
+5. **Set Default Font:**
+   - Ensure the default font is set to `Times New Roman`.
+
+This setup ensures that Bengali text is displayed correctly with the desired fonts and sizes in Firefox.
+
 
 
 ### Extra
