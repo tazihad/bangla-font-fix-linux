@@ -1,7 +1,7 @@
 #!/bin/bash
 # -----------------------------------------------------------------------------
-# Script Name:    your_script_name.sh
-# Description:    Brief description of what the script does.
+# Script Name:    bangla-nirmalaui-default.sh
+# Description:    Makes Nirmala UI default font for Bangla similar to Windows 10 for clean UI
 # Author:         @tazihad
 # Website:        https://zihad.com.bd
 # License:        MIT License
