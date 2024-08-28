@@ -55,6 +55,6 @@ tar -xzvf "$TMP_DIR/fonts-bangla.tar.gz" -C "$DEST_DIR" > /dev/null 2>&1
 echo "Refreshing font cache..."
 fc-cache -fv > /dev/null 2>&1
 
-echo "Bangla Fonts installed successfully in ~/.local/share/fonts/fonts-bangla for $USER."
+echo "Bangla Fonts installed successfully in $DEST_DIR."
 
 
