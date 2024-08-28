@@ -54,4 +54,4 @@ echo "Checking font configuration for Bangla locale..."
 export LANG=bn_BD.UTF-8
 fc-match
 
-echo "Nirmala UI is now default font for Bangla."
+echo "Nirmala UI is now default font for Bangla for $USER."
