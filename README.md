@@ -12,7 +12,7 @@ curl -sSL https://raw.githubusercontent.com/tazihad/bangla-font-fix-linux/main/b
 
 ### Download Windows 10 fonts for linux
 ```
-test
+curl -sSL https://raw.githubusercontent.com/tazihad/bangla-font-fix-linux/main/msfonts-download.sh | sh
 ```
 
 #### Extra Steps for Firefox Users
