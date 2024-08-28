@@ -1,7 +1,7 @@
 #!/bin/bash
 # -----------------------------------------------------------------------------
-# Script Name:    your_script_name.sh
-# Description:    Brief description of what the script does.
+# Script Name:    fonts-bangla-download.sh
+# Description:    Download most used Bangla fonts in linux for local user
 # Author:         @tazihad
 # Website:        https://zihad.com.bd
 # License:        MIT License
