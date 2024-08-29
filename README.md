@@ -1,5 +1,8 @@
 # bangla-fonts-fix-linux
 **Fix small Bangla fonts problem in linux**  
+
+Open Terminal and copy-paste these commands.
+
 ### Install Bangla fonts
 ```
 curl -sSL https://raw.githubusercontent.com/tazihad/bangla-font-fix-linux/main/fonts-bangla-download.sh | sh
