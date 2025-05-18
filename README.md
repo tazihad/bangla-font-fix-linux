@@ -18,7 +18,7 @@ curl -sSL https://raw.githubusercontent.com/tazihad/bangla-font-fix-linux/main/b
 curl -sSL https://raw.githubusercontent.com/tazihad/bangla-font-fix-linux/main/msfonts-download.sh | sh
 ```
 
-#### Extra Steps for Firefox Users
+## Extra Steps for Firefox Users
 
 Follow these steps to configure fonts for Bengali and Latin text in Firefox:
 
